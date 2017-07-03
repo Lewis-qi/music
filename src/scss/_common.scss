@@ -1,0 +1,53 @@
+@import '_mixin.scss';
+.container {
+  @include blockCenter;
+  width: 90%;
+}
+
+.clearfix {
+  @include clearfix;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.pos-f {
+  position: fixed;
+}
+
+.pos-a {
+  position: absolute;
+}
+
+.pos-r {
+  position: relative;
+}
+
+@include media(xs) {
+ 
+}
+
+@include media(sm) {
+    
+}
+
+
+@include media(md) {
+
+}
+
+@include media(lg) {
+ 
+}
+
+@include media(superbig) {
+
+}
+
+
+
